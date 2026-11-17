@@ -25,7 +25,7 @@ inThisBuild(
       tlGitHubDev("vlovgr", "Viktor Rudebeck")
     ),
     githubWorkflowBuildPreamble ++= nativeBrewInstallWorkflowSteps.value,
-    githubWorkflowOSes := Seq("ubuntu-latest"),
+    githubWorkflowOSes := Seq("ubuntu-24.04"),
     githubWorkflowJavaVersions := Seq(JavaSpec.temurin("17")),
     githubWorkflowTargetBranches := Seq("**"),
     githubWorkflowBuildPreamble := Seq(
