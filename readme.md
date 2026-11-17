@@ -1,4 +1,4 @@
-# :lock: http4s-aws
+# http4s-aws <img src="docs/img/logo.svg" align="right" height="130" alt="" />
 
 Provides [http4s](https://http4s.org) request authentication using [AWS Signature Version 4](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_aws-signing.html) signing.<br>
 The blog post [A Scala Alternative to AWS SDK for Java](https://vlovgr.se/posts/http4s-aws) gives an introduction.<br>
